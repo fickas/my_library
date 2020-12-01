@@ -12,7 +12,7 @@ my_github_name = 'uo-puddles'  #this is one of my github accounts
 my_library_name = 'uo_puddles' #this is name of repository I keep on github - easy to set up!
 clone_url = f'https://github.com/{my_github_name}/{my_library_name}.git'  #create the url to get the library
 
-path  =  '.' # "/path/to/store/your/cloned/project" 
+path  =  '/content' # "/path/to/store/your/cloned/project" 
 clone = "git clone gitolite@<server_ip>:/your/project/name.git" 
 
 #os.system("sshpass -p your_password ssh user_name@your_localhost")
