@@ -21,6 +21,9 @@ os.system(clone_url) # Cloning
 
 import uo_puddles.uo_puddles as up
 
+def up_there():
+      return up
+
 def hello():
   print('hello')
   
