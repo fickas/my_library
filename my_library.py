@@ -10,7 +10,7 @@ def nlp_test(s):
   
 my_github_name = 'uo-puddles'  #this is one of my github accounts
 my_library_name = 'uo_puddles' #this is name of repository I keep on github - easy to set up!
-clone_url = f'https://github.com/{my_github_name}/{my_library_name}.git'  #create the url to get the library
+clone_url = f'git clone https://github.com/{my_github_name}/{my_library_name}.git'  #create the url to get the library
 
 path  =  '/content' # "/path/to/store/your/cloned/project" 
 clone = "git clone gitolite@<server_ip>:/your/project/name.git" 
